@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="app">
     <TheSubmissionForm />
   </div>
 </template>
@@ -17,7 +17,8 @@ export default Index
 </script>
 
 <style>
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
+.app {
+  @apply h-full w-full flex justify-center items-center text-center bg-green-800;
+  width: 100%;
 }
 </style>
