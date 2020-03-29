@@ -1,13 +1,19 @@
 <template>
   <div class="container">
-    Jojo
+    <TheSubmissionForm />
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({})
+import { Component, Vue } from 'nuxt-property-decorator'
+import TheSubmissionForm from '~/components/TheSubmissionForm.vue'
+@Component({
+  components: {
+    TheSubmissionForm
+  }
+})
+class Index extends Vue {}
+export default Index
 </script>
 
 <style>

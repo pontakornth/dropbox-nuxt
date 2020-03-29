@@ -9,10 +9,10 @@
     "build": "nuxt-ts build",
     "generate": "nuxt-ts generate",
     "start": "nuxt-ts start",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+    "lint": "eslint --ext .js,.vue,.ts --ignore-path .gitignore ."
   },
   "lint-staged": {
-    "*.{js,vue}": "yarn lint"
+    "*.{js,vue,ts}": "yarn lint"
   },
   "husky": {
     "hooks": {
@@ -23,6 +23,8 @@
     "@nuxt/typescript-runtime": "^0.4.0",
     "@nuxtjs/dotenv": "^1.4.0",
     "nuxt": "^2.0.0",
+    "nuxt-property-decorator": "^2.5.1",
+    "postcss-nested": "^4.2.1",
     "tailwindcss": "^1.2.0"
   },
   "devDependencies": {

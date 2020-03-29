@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default {
   mode: 'spa',
   /*
@@ -50,6 +51,11 @@ export default {
     /*
      ** You can extend webpack config here
      */
+    postcss: {
+      plugins: {
+        'postcss-nested': {}
+      }
+    },
     extend(config, ctx) {}
   }
 }
