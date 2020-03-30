@@ -22,10 +22,15 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.0",
     "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/firebase": "^5.0.3",
+    "core-js": "2",
+    "dotenv": "^8.2.0",
+    "firebase": "^7.13.1",
     "nuxt": "^2.0.0",
     "nuxt-property-decorator": "^2.5.1",
     "postcss-nested": "^4.2.1",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.2.0",
+    "vuefire": "^2.2.2"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.6.0",

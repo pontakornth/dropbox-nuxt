@@ -1,4 +1,5 @@
 /* eslint-disable */
+import firebaseConfig from './firebase.config'
 export default {
   mode: 'spa',
   /*
@@ -42,7 +43,17 @@ export default {
    */
   modules: [
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    ['@nuxtjs/firebase',{
+      config: {
+        ...firebaseConfig
+      },
+      services: {
+        auth: true,
+        firestore: true
+      }
+    }
+    ]
   ],
   /*
    ** Build configuration
