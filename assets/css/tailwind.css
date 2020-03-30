@@ -3,3 +3,12 @@
 @import 'tailwindcss/components';
 /* purgecss end ignore */
 @import 'tailwindcss/utilities';
+
+
+html {
+    @apply font-body;
+}
+
+h1,h2,h3,h4,h5,h6,header,footer {
+  @apply font-display;
+}
