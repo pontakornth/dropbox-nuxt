@@ -6,9 +6,17 @@
  */
 
 import plugin from 'tailwindcss/plugin'
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 module.exports = {
-  theme: {},
+  theme: {
+    ...defaultTheme,
+    fontFamily: {
+      ...defaultTheme.fontFamily,
+      display: `"Prompt", sans-serif`,
+      body: `"Maitree", sans-serif`
+    }
+  },
   variants: {},
   plugins: [
     plugin(({ addBase, config }) => {
