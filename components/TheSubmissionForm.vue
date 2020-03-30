@@ -32,7 +32,7 @@ textarea {
 }
 
 .button {
-  @apply bg-indigo-500 text-white w-auto text-center font-display mx-auto font-bold mt-4 p-2 rounded;
+  @apply bg-indigo-500 text-white w-auto text-center font-display mx-auto font-semibold mt-4 p-2 rounded;
   cursor: pointer;
   &:hover {
     @apply bg-green-500;
