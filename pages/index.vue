@@ -18,7 +18,7 @@ export default Index
 
 <style>
 .app {
-  @apply h-full w-full flex justify-center items-center text-center bg-green-800;
+  @apply h-full w-full flex justify-center items-center text-center bg-indigo-800;
   width: 100%;
 }
 </style>
