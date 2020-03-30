@@ -26,6 +26,7 @@
     "core-js": "2",
     "dotenv": "^8.2.0",
     "firebase": "^7.13.1",
+    "mini-toastr": "^0.8.1",
     "nuxt": "^2.0.0",
     "nuxt-property-decorator": "^2.5.1",
     "postcss-nested": "^4.2.1",
